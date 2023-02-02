@@ -44,6 +44,12 @@ Weight column in the dataset had many missing values. Dropping missing weight va
 I conducted the exploratory data analysis for the following variables: upper blood pressure, lower blood pressure, alcohol consumption, smoking, weight, glucose level, and phisycal activity. I used the box plot for upper and lower blood pressures. Diabetic people tend to have higher upper and lower blood pressures. For alcohol and smoking, diabetic people have slightly higher rates for alcohol consumption and smoking compared with non-diabetic people. 
 
 Visualization for weight distribution across diabetic and non-diabetic people indicates that diabetic people tend to have higher weights  relative to non-diabetic people. Moreover, visulation for glucose level distribution demonstrates that diabetic people have higher glucose level in average than non-diabetic people. Furthermore, physical activity visualization showed that non-diabetic people are more physically active than non-diabetic people in average. 
+![image](https://user-images.githubusercontent.com/113545468/216438584-33fcb426-4b52-4a7a-bfb6-c3457f1d3a91.png)
+![image](https://user-images.githubusercontent.com/113545468/216438629-e33683f5-48f0-4e9b-8bbe-ba59379bf317.png)
+![image](https://user-images.githubusercontent.com/113545468/216438659-96bcee88-6374-4d70-b369-176bc774d8bc.png)
+![image](https://user-images.githubusercontent.com/113545468/216438681-c8f09d3f-0ca4-4e01-9b49-70349651e366.png)
+![image](https://user-images.githubusercontent.com/113545468/216438709-4461cf80-9d52-4bbd-9768-ec8dc7246ae6.png)
+
 
 ## Part 3. Machine learning model building for diabetes diagnosis
 
@@ -52,3 +58,5 @@ I built the logistic regression model as the first machine learning model. Targe
 
 2. Random Forest Classifier model: \
 I used the Random Forest Classifier model as the second machine learning model for diagnosing the diabetes. Target variable is the dummy variable indicating diabetic or non-diabetic. Regressors or explanatory variables are smoking, alcohol consumption, upper blood pressure, lower blood pressure, cholesterol level, glucose level, height, gender, age, and weight. Max depth of each tree in the forest is 19 and random state seed value is 0. Furthermore, I plotted the feature importances for explanatory variables from this Random Forest Classifier model. The model indicated that glucose level, age, weight, physical activity, lower blood pressure, upper blood pressure, and gender are important variables in diagnosing the diabetes. 
+![image](https://user-images.githubusercontent.com/113545468/216438755-e23adc4d-7a9c-47b8-be43-6f7e39e25259.png)
+
